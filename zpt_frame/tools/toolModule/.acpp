@@ -1,0 +1,32 @@
+
+/*
+class Index {
+private:
+    char index[100];
+    bool sign[100];
+
+public:
+    Index() {
+	for (int i=0; i<100; i++) {
+	    index = i;
+	    sign = false;
+	}
+    }
+    char next() {
+	for (int i=0; i<100; i++) {
+	    if (sign == false) {
+		sign[i] = true;
+		return index[i];
+	    }
+	}
+    }
+    void free(char key) {
+	for (int i=0; i<100; i++) {
+	    if (index[i] == key) {
+		sign[i] = false;
+		return ;
+	    }
+	}
+    }
+};
+*/
